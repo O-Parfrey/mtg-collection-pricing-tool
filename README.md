@@ -23,5 +23,20 @@ This project is designed to automate tracking and valuation of a personal MTG ca
 - Error handling and validation
 - Automation of repetitive data tasks
 
+## Project Structure
+- `api` – External API communication (Scryfall)
+- `io` – File input/output and data serialization
+- `logic` – Core collection and pricing workflows
+- `model` – Data models representing cards and collections
+- `ui` – User interaction and program flow
+- `MTGApp` – Program entry point
+
 ## Status
-In Progress
+In Progress (core data workflows implemented; API integration and export features being expanded)
+
+## Planned Improvements
+- Complete Scryfall API integration with support for edge cases (alternate printings, missing data)
+- Improve error handling and retry logic for external API requests
+- Add configuration support for API rate limits and timeouts
+- Expand export options (multiple formats, summary views)
+- Improve validation and normalization of scanned collection data
