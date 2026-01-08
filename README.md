@@ -40,3 +40,4 @@ In Progress (core data workflows implemented; API integration and export feature
 - Add configuration support for API rate limits and timeouts
 - Expand export options (multiple formats, summary views)
 - Improve validation and normalization of scanned collection data
+-  Add basic logging to track data processing and pricing update steps
